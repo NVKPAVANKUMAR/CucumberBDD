@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10242175386,
+              "duration": 22918888891,
               "status": "passed"
             },
             "line": 5,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 9733303,
+              "duration": 7656113,
               "status": "passed"
             },
             "line": 6,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 258433060,
+              "duration": 508523386,
               "status": "passed"
             },
             "line": 7,
@@ -62,7 +62,7 @@
           },
           {
             "result": {
-              "duration": 11333726997,
+              "duration": 11955108371,
               "status": "passed"
             },
             "line": 8,
@@ -74,7 +74,7 @@
           },
           {
             "result": {
-              "duration": 6375672,
+              "duration": 6142867,
               "status": "passed"
             },
             "line": 9,
@@ -86,13 +86,13 @@
           },
           {
             "result": {
-              "duration": 87683080,
+              "duration": 1179529539,
               "status": "passed"
             },
             "line": 10,
             "name": "Close the browser",
             "match": {
-              "location": "LoginStepDefinition.close_the_browser()"
+              "location": "LoginStepDefinition.Close_the_browser()"
             },
             "keyword": "Then "
           }
@@ -104,5 +104,136 @@
     "id": "free-crm-login-feature",
     "keyword": "Feature",
     "uri": "login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "",
+        "description": "",
+        "id": "free-crm-signup-feature;;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15843008719,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on Login Page",
+            "match": {
+              "location": "SignUpStepDefinition.user_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8522532,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "title of login page is FreeCRM",
+            "match": {
+              "location": "SignUpStepDefinition.title_of_login_page_is_freeCRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14355021103,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on signUp button",
+            "match": {
+              "location": "SignUpStepDefinition.user_clicks_on_signUp_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4603453,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "browser navigated to Registration Page",
+            "match": {
+              "location": "SignUpStepDefinition.browser_navigated_to_Registration_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1329025703,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters \"Free Edition\" and \"Test\" and \"123\" and \"test123@mail.com\" and \"Test123\" and \"password\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Free Edition",
+                  "offset": 13
+                },
+                {
+                  "val": "Test",
+                  "offset": 32
+                },
+                {
+                  "val": "123",
+                  "offset": 43
+                },
+                {
+                  "val": "test123@mail.com",
+                  "offset": 53
+                },
+                {
+                  "val": "Test123",
+                  "offset": 76
+                },
+                {
+                  "val": "password",
+                  "offset": 90
+                },
+                {
+                  "val": "password",
+                  "offset": 105
+                }
+              ],
+              "location": "SignUpStepDefinition.user_enters_and_and_and_and_and_and(String,String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1290332693,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "close the browser instance",
+            "match": {
+              "location": "SignUpStepDefinition.close_the_browser_instance()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM Signup Feature",
+    "description": "",
+    "id": "free-crm-signup-feature",
+    "keyword": "Feature",
+    "uri": "signup.feature"
   }
 ]
