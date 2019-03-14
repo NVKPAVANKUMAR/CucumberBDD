@@ -1,0 +1,22 @@
+[
+  {
+    "paymentPlan": "Free Edition",
+    "firstName": "Lakshay",
+    "lastName": "Sharma",
+    "emailAddress": "Lakshay@Gmail.com",
+    "confirmEmailAddress": "Lakshay@Gmail.com",
+    "userName": "LakshaySharma",
+    "password": "1234567",
+    "cofirmPassword": "1234567"
+  },
+  {
+    "paymentPlan": "Free Edition",
+    "firstName": "Virender",
+    "lastName": "Singh",
+    "emailAddress": "Virender@Gmail.com",
+    "confirmEmailAddress": "Virender@Gmail.com",
+    "userName": "VirenderSingh",
+    "password": "Test1234567",
+    "cofirmPassword": "Test1234567"
+  }
+]
