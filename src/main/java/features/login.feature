@@ -13,4 +13,5 @@ Feature: Free CRM Login Feature
     Examples:
       | username | password |
       | naveenk  | test@123 |
+      | pavan    | pavan    |
 		

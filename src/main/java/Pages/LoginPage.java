@@ -1,5 +1,6 @@
 package Pages;
 
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -30,9 +31,13 @@ public class LoginPage {
         logger.info("SingUp Link Available To Click");
     }
 
-    public void clickSignupLink() throws InterruptedException {
+    public void clickSignupLink() {
         // waitForElement(sighUpLink);
-        Thread.sleep(10000);
+        try {
+            Thread.sleep(10000);
+        }catch (InterruptedException e){
+            e.printStackTrace();
+        }
         sighUpLink.click();
         logger.info("Clicked on Signup link");
     }

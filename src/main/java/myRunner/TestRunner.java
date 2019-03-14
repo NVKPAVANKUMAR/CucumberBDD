@@ -1,4 +1,4 @@
-package MyRunner;
+package myRunner;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.testng.CucumberFeatureWrapper;
@@ -9,7 +9,7 @@ import static utility.Reporter.endReport;
 import static utility.Reporter.setExtent;
 
 @CucumberOptions(
-        features = "src/main/java/Features/",
+        features = "src/main/java/features/signup_json.feature",
         glue = {"stepDefinitions"},
         tags = {"~@Ignore"},
         format = {
@@ -23,7 +23,7 @@ public class TestRunner {
     private TestNGCucumberRunner testNGCucumberRunner;
 
     @BeforeSuite
-    public void setUpTest() {
+    public void setUpSuite() {
         setExtent();
     }
 
@@ -48,7 +48,7 @@ public class TestRunner {
     }
 
     @AfterSuite
-    public void tearDownTest() {
+    public void tearDownSuite() {
         endReport();
     }
 }

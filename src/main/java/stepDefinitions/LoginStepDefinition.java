@@ -57,6 +57,7 @@ public class LoginStepDefinition {
 //        JavascriptExecutor js = (JavascriptExecutor) driver;
 //        js.executeScript("arguments[0].click();", loginBtn);
         login.clickLoginBtn();
+        logger.pass("PASSED");
     }
 
 

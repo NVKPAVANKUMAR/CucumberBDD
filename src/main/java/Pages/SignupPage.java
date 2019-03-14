@@ -6,6 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import testDataTypes.Customer;
 
 import static utility.Reporter.logger;
 
@@ -69,6 +70,11 @@ public class SignupPage {
         logger.info("Email id confirmed");
     }
 
+    public void enterUserNameTxt(String arg5){
+        userNameTxtInput.sendKeys(arg5);
+        logger.info("Username text entered");
+    }
+
     public void enterPassword(String arg6) {
         passwordTxtInput.sendKeys(arg6);
         logger.info("Password text enetered");
@@ -88,5 +94,18 @@ public class SignupPage {
         waitForElementToClick(submitButton);
         submitButton.click();
         logger.info("Submit button clicked");
+    }
+
+    public void fill_PersonalDetails(Customer customer){
+        selectPaymentType(customer.paymentPlan);
+        enterFirstName(customer.firstName);
+        enterLastName(customer.lastName);
+        enterEmail(customer.emailAddress);
+        confirmEmail(customer.confirmEmailAddress);
+        enterUserNameTxt(customer.userName);
+        enterPassword(customer.password);
+        enterConfirmPassword(customer.cofirmPassword);
+        clickOnCheckbox();
+        clickOnSubmit();
     }
 }

@@ -4,13 +4,13 @@
        parallel="tests">
     <test thread-count="1" name="Login and Update Profile Test(failed)" parallel="tests">
         <classes>
-            <class name="MyRunner.TestRunner">
+            <class name="myRunner.TestRunner">
                 <methods>
                     <include name="feature" invocation-numbers="0"/>
                     <include name="tearDownClass"/>
                     <include name="setUpClass"/>
                 </methods>
-            </class> <!-- MyRunner.TestRunner -->
+            </class> <!-- myRunner.TestRunner -->
         </classes>
     </test> <!-- Login and Update Profile Test(failed) -->
 </suite> <!-- Failed suite [BDD Test Suite] -->

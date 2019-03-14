@@ -1,4 +1,4 @@
-Feature: Free CRM Signup Feature
+ Free CRM Signup Feature
 
   Scenario Outline:
     Given user is on Login Page

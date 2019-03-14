@@ -53,7 +53,8 @@ public class SignUpStepDefinition {
         signup.enterFirstName(arg2);
         signup.enterLastName(arg3);
         signup.enterEmail(arg4);
-        signup.confirmEmail(arg5);
+        signup.confirmEmail(arg4);
+        signup.enterUserNameTxt(arg5);
         signup.enterPassword(arg6);
         signup.enterConfirmPassword(arg7);
         signup.clickOnCheckbox();
