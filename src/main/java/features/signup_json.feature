@@ -8,5 +8,5 @@ Feature: The purpose of this feature is to test End 2 End integration.
     And enter "<customer>" personal details on checkout page
     Then quit the browser instance
     Examples:
-      |customer|
-      |Virender|
+      | customer |
+      | Lakshay |

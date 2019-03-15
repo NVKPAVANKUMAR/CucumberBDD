@@ -70,7 +70,7 @@ public class SignupPage {
         logger.info("Email id confirmed");
     }
 
-    public void enterUserNameTxt(String arg5){
+    public void enterUserNameTxt(String arg5) {
         userNameTxtInput.sendKeys(arg5);
         logger.info("Username text entered");
     }
@@ -81,7 +81,7 @@ public class SignupPage {
     }
 
     public void enterConfirmPassword(String arg7) {
-        confirmEmailTxtInput.sendKeys(arg7);
+        confirmPasswordTxtInput.sendKeys(arg7);
         logger.info("Password confirmed");
     }
 
@@ -96,7 +96,7 @@ public class SignupPage {
         logger.info("Submit button clicked");
     }
 
-    public void fill_PersonalDetails(Customer customer){
+    public void fill_PersonalDetails(Customer customer) {
         selectPaymentType(customer.paymentPlan);
         enterFirstName(customer.firstName);
         enterLastName(customer.lastName);
@@ -104,7 +104,7 @@ public class SignupPage {
         confirmEmail(customer.confirmEmailAddress);
         enterUserNameTxt(customer.userName);
         enterPassword(customer.password);
-        enterConfirmPassword(customer.cofirmPassword);
+        enterConfirmPassword(customer.confirmPassword);
         clickOnCheckbox();
         clickOnSubmit();
     }

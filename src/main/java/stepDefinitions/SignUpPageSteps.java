@@ -62,6 +62,4 @@ public class SignUpPageSteps {
     public void quit_the_browser_instance() {
         driver.quit();
     }
-
-
 }

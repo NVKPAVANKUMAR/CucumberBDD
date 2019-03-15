@@ -2,37 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de002c20-87e4-4d6c-a907-66dbeeb783d7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Cucumber-TestNG.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Cucumber-TestNG.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/features/login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Features/signup.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/features/signup.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MyRunner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/myRunner/TestRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Pages/SignupPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/SignupPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stepDefinitions/LoginStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stepDefinitions/LoginStepDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stepDefinitions/SignUpStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stepDefinitions/SignUpStepDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MyRunner/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MyRunner/TestRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/stepDefinitions/LoginStepDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/stepDefinitions/LoginStepDefinition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/CucumberTestReport.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/CucumberTestReport.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/cucumber-pretty/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/cucumber-pretty/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dataProviders/ConfigFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataProviders/ConfigFileReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dataProviders/JsonDataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataProviders/JsonDataReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/features/signup.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/features/signup.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/features/signup_json.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/features/signup_json.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/managers/FileReaderManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/managers/FileReaderManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/managers/WebDriverManagerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/managers/WebDriverManagerClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stepDefinitions/SignUpPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stepDefinitions/SignUpPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/testDataResource/customer.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testDataResource/customer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/testDataTypes/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testDataTypes/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/advanced-reports/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/advanced-reports/cucumber-html-reports/overview-failures.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/advanced-reports/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/advanced-reports/cucumber-html-reports/overview-features.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/advanced-reports/cucumber-html-reports/overview-steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/advanced-reports/cucumber-html-reports/overview-steps.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/advanced-reports/cucumber-html-reports/overview-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/advanced-reports/cucumber-html-reports/overview-tags.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/advanced-reports/cucumber-html-reports/report-feature_login-feature.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/advanced-reports/cucumber-html-reports/report-feature_login-feature.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/cucumber-pretty/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/cucumber-pretty/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/BDD Test Suite/FREE CRM Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/BDD Test Suite/FREE CRM Test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/BDD Test Suite/FREE CRM Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/BDD Test Suite/FREE CRM Test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/BDD Test Suite/FREE CRM Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/BDD Test Suite/FREE CRM Test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/BDD Test Suite/Login and Update Profile Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/BDD Test Suite/Login and Update Profile Test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/BDD Test Suite/Login and Update Profile Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/BDD Test Suite/Login and Update Profile Test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/BDD Test Suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/BDD Test Suite/testng-failed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-MyRunner.TestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-MyRunner.TestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/BDD Test Suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/BDD Test Suite/classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/BDD Test Suite/groups.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/BDD Test Suite/groups.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/BDD Test Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/BDD Test Suite/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/BDD Test Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/BDD Test Suite/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/BDD Test Suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/BDD Test Suite/testng.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/myReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/myReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/myReport2019.03.13.18.57.16.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/myReport2019.03.13.18.57.16.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/myReport2019.03.13.19.11.03.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/myReport2019.03.13.19.11.03.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/myReport2019.03.13.19.13.45.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/myReport2019.03.13.19.13.45.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/myReport2019.03.13.19.16.05.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/myReport2019.03.13.19.16.05.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/myReport2019.03.13.19.20.16.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/myReport2019.03.13.19.20.16.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/myReport2019.03.13.19.24.27.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/myReport2019.03.13.19.24.27.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/myReport2019.03.13.19.47.00.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/myReport2019.03.13.19.47.00.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/myReport2019.03.13.19.48.53.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/myReport2019.03.13.19.48.53.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/myReport2019.03.13.20.37.57.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/myReport2019.03.13.20.37.57.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/myReport2019.03.14.12.56.09.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/myReport2019.03.14.12.56.09.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/myReport2019.03.14.12.59.31.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/myReport2019.03.14.12.59.31.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/myReport2019.03.14.19.23.59.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/myReport2019.03.14.19.23.59.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/myReport2019.03.14.19.54.36.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/myReport2019.03.14.19.54.36.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/myReport2019.03.14.19.58.21.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/myReport2019.03.14.19.58.21.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/myReport2019.03.14.19.59.17.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/myReport2019.03.14.19.59.17.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/myReport2019.03.14.20.33.34.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/myReport2019.03.14.20.33.34.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/myReport2019.03.14.20.35.23.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/myReport2019.03.14.20.35.23.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/myReport2019.03.14.20.39.54.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/myReport2019.03.14.20.39.54.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/myReport2019.03.14.20.41.06.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/myReport2019.03.14.20.41.06.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/myReport2019.03.14.20.44.46.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/myReport2019.03.14.20.44.46.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/myReport2019.03.14.20.46.15.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/myReport2019.03.14.20.46.15.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/myReport2019.03.14.20.55.46.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/myReport2019.03.14.20.55.46.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/myReport2019.03.14.21.00.29.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/myReport2019.03.14.21.00.29.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/myReport2019.03.14.21.19.51.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/myReport2019.03.14.21.19.51.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,8 +66,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/stepDefinitions/SignUpPageSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1000">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="-779">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="e#2323#2324#0" expanded="true" />
                 <element signature="e#2352#2353#0" expanded="true" />
@@ -57,49 +77,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/features/signup.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/testDataTypes/Customer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="29" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/testDataResource/customer.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-155">
-              <caret line="9" column="19" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/stepDefinitions/SignUpStepDefinition.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="51" column="24" lean-forward="true" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dataProviders/ConfigFileReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="82" column="4" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="75">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Pages/LoginPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="59" column="11" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/stepDefinitions/LoginStepDefinition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1479">
+              <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -107,12 +106,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dataProviders/JsonDataReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+            <state relative-caret-position="371">
+              <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
               <folding>
-                <element signature="e#261#262#0" expanded="true" />
-                <element signature="e#309#310#0" expanded="true" />
+                <element signature="e#368#369#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/stepDefinitions/SignUpStepDefinition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="383">
+              <caret line="52" column="36" lean-forward="true" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -120,10 +127,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/managers/FileReaderManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            <state relative-caret-position="321">
+              <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#635#636#0" expanded="true" />
+                <element signature="e#722#723#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -132,20 +140,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/managers/WebDriverManagerClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="350">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/myRunner/TestRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#961#962#0" expanded="true" />
+                <element signature="e#1041#1042#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Pages/SignupPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="104" column="44" selection-start-line="104" selection-start-column="44" selection-end-line="104" selection-end-column="44" />
+            <state relative-caret-position="-1865">
+              <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -172,23 +190,23 @@
         <option value="$PROJECT_DIR$/src/main/java/MyRunner/TestRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/stepDefinitions/LoginStepDefinition.java" />
         <option value="$PROJECT_DIR$/src/main/java/Features/login.feature" />
-        <option value="$PROJECT_DIR$/src/main/java/testDataResource/customer.json" />
         <option value="$PROJECT_DIR$/src/main/java/Features/signup_json.feature" />
         <option value="$PROJECT_DIR$/src/main/java/Features/signup.feature" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/features/signup_json.feature" />
         <option value="$PROJECT_DIR$/src/main/java/managers/WebDriverManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/managers/WebDriverManagerClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/myRunner/TestRunner.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Pages/LoginPage.java" />
         <option value="$PROJECT_DIR$/configuration/Configuration.properties" />
         <option value="$PROJECT_DIR$/src/main/java/managers/FileReaderManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dataProviders/JsonDataReader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/stepDefinitions/SignUpPageSteps.java" />
         <option value="$PROJECT_DIR$/src/main/java/stepDefinitions/SignUpStepDefinition.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dataProviders/ConfigFileReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/stepDefinitions/SignUpPageSteps.java" />
+        <option value="$PROJECT_DIR$/src/main/java/features/signup_json.feature" />
         <option value="$PROJECT_DIR$/src/main/java/testDataTypes/Customer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dataProviders/JsonDataReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Pages/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/Pages/SignupPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/testDataResource/customer.json" />
+        <option value="$PROJECT_DIR$/src/main/java/dataProviders/ConfigFileReader.java" />
       </list>
     </option>
   </component>
@@ -210,7 +228,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="38" />
     <option name="y" value="-16" />
     <option name="width" value="1166" />
@@ -307,6 +325,22 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="testDataResource" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Cucumber-TestNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cucumber-TestNG" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testDataTypes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cucumber-TestNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cucumber-TestNG" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utility" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -316,7 +350,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552578667575" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552660867283" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -439,27 +473,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestRunner - 2019.03.14 at 20h 01m 18s.xml">
-      <configuration name="TestRunner" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestRunner - 2019.03.14 at 20h 34m 08s.xml">
-      <configuration name="TestRunner" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestRunner - 2019.03.14 at 20h 36m 02s.xml">
-      <configuration name="TestRunner" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestRunner - 2019.03.14 at 20h 40m 31s.xml">
-      <configuration name="TestRunner" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestRunner - 2019.03.14 at 20h 41m 40s.xml">
-      <configuration name="TestRunner" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestRunner - 2019.03.14 at 20h 45m 51s.xml">
-      <configuration name="TestRunner" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestRunner - 2019.03.14 at 20h 47m 23s.xml">
-      <configuration name="TestRunner" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestRunner - 2019.03.14 at 20h 55m 30s.xml">
       <configuration name="TestRunner" configurationId="TestNG" />
     </history-entry>
@@ -469,12 +482,33 @@
     <history-entry file="TestRunner - 2019.03.14 at 21h 07m 27s.xml">
       <configuration name="TestRunner" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestRunner - 2019.03.14 at 21h 19m 46s.xml">
+      <configuration name="TestRunner" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestRunner - 2019.03.14 at 21h 21m 17s.xml">
+      <configuration name="TestRunner" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestRunner - 2019.03.15 at 19h 08m 15s.xml">
+      <configuration name="TestRunner" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestRunner - 2019.03.15 at 19h 39m 19s.xml">
+      <configuration name="TestRunner" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestRunner - 2019.03.15 at 19h 42m 08s.xml">
+      <configuration name="TestRunner" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestRunner - 2019.03.15 at 19h 46m 08s.xml">
+      <configuration name="TestRunner" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestRunner - 2019.03.15 at 19h 47m 10s.xml">
+      <configuration name="TestRunner" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24810892" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16641453" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -483,8 +517,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.48772505" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.43371522" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5499182" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.6121113" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -538,86 +572,6 @@
       <window_info anchor="right" id="JSON Viewer" order="9" />
     </layout-to-restore>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/stepDefinitions/SignUpPageSteps.java</url>
-          <line>55</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/stepDefinitions/SignUpPageSteps.java</url>
-          <line>56</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/stepDefinitions/SignUpPageSteps.java</url>
-          <line>57</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Pages/SignupPage.java</url>
-          <line>99</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Pages/SignupPage.java</url>
-          <line>100</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Pages/SignupPage.java</url>
-          <line>101</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Pages/SignupPage.java</url>
-          <line>47</line>
-          <properties />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Pages/SignupPage.java</url>
-          <line>48</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/dataProviders/JsonDataReader.java</url>
-          <line>23</line>
-          <properties />
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/dataProviders/JsonDataReader.java</url>
-          <line>22</line>
-          <properties />
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/dataProviders/JsonDataReader.java</url>
-          <line>21</line>
-          <properties />
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/Pages/SignupPage.java</url>
-          <line>46</line>
-          <properties class="Pages.SignupPage" method="selectPaymentType">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
@@ -641,28 +595,10 @@
     <entry file="file://$PROJECT_DIR$/test-output/myReport2019.03.13.18.57.16.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/features/login.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utility/Reporter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#1158#1159#0" expanded="true" />
-            <element signature="e#1189#1190#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -680,60 +616,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/stepDefinitions/LoginStepDefinition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/features/signup_json.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="41" column="46" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="41" selection-end-column="46" />
-          <folding>
-            <element signature="e#1976#1977#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/configuration/Configuration.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/myRunner/TestRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="e#848#849#0" expanded="true" />
-            <element signature="e#875#876#0" expanded="true" />
-            <element signature="e#942#943#0" expanded="true" />
-            <element signature="e#1022#1023#0" expanded="true" />
-            <element signature="e#1326#1327#0" expanded="true" />
-            <element signature="e#1387#1388#0" expanded="true" />
-            <element signature="e#1456#1457#0" expanded="true" />
-            <element signature="e#1501#1502#0" expanded="true" />
-            <element signature="e#1552#1553#0" expanded="true" />
-            <element signature="e#1579#1580#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/features/signup.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
@@ -744,72 +630,123 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utility/Reporter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-129">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+          <folding>
+            <element signature="e#1158#1159#0" expanded="true" />
+            <element signature="e#1189#1190#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/features/signup.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/features/login.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testDataResource/customer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/features/signup_json.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testDataTypes/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dataProviders/ConfigFileReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="82" column="4" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dataProviders/JsonDataReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+        <state relative-caret-position="371">
+          <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
           <folding>
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/managers/FileReaderManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        <state relative-caret-position="321">
+          <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/managers/WebDriverManagerClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="350">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/myRunner/TestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#961#962#0" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testDataTypes/Customer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="29" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="29" />
+        <state relative-caret-position="210">
+          <caret line="59" column="11" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/stepDefinitions/SignUpStepDefinition.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/SignupPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="51" column="24" lean-forward="true" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
+        <state relative-caret-position="-1865">
+          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testDataResource/customer.json">
+    <entry file="file://$PROJECT_DIR$/src/main/java/stepDefinitions/LoginStepDefinition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-155">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="19" />
+        <state relative-caret-position="-1479">
+          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/stepDefinitions/SignUpPageSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1000">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="-779">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="e#2323#2324#0" expanded="true" />
             <element signature="e#2352#2353#0" expanded="true" />
@@ -817,10 +754,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/SignupPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/stepDefinitions/SignUpStepDefinition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="104" column="44" selection-start-line="104" selection-start-column="44" selection-end-line="104" selection-end-column="44" />
+        <state relative-caret-position="383">
+          <caret line="52" column="36" lean-forward="true" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
         </state>
       </provider>
     </entry>

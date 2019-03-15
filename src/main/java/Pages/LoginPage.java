@@ -1,6 +1,5 @@
 package Pages;
 
-import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -27,7 +26,7 @@ public class LoginPage {
 
     private void waitForElement(WebElement ele) {
         WebDriverWait wait = new WebDriverWait(driver, 20);
-        wait.until(ExpectedConditions.visibilityOf(ele));
+        wait.until(ExpectedConditions.elementToBeClickable(ele));
         logger.info("SingUp Link Available To Click");
     }
 
@@ -35,7 +34,7 @@ public class LoginPage {
         // waitForElement(sighUpLink);
         try {
             Thread.sleep(10000);
-        }catch (InterruptedException e){
+        } catch (InterruptedException e) {
             e.printStackTrace();
         }
         sighUpLink.click();
@@ -57,8 +56,8 @@ public class LoginPage {
     }
 
     public void clickLoginBtn() throws InterruptedException {
-        // waitForElement(loginBtn);
-        Thread.sleep(10000);
+        waitForElement(loginBtn);
+        // Thread.sleep(10000);
         loginBtn.click();
         logger.info("Login button clicked");
     }

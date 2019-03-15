@@ -8,5 +8,5 @@ public class Customer {
     public String confirmEmailAddress;
     public String userName;
     public String password;
-    public String cofirmPassword;
+    public String confirmPassword;
 }

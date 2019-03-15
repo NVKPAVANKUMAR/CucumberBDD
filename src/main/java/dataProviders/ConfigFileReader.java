@@ -1,34 +1,24 @@
 package dataProviders;
 
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
 
 public class ConfigFileReader {
     private Properties properties;
-    private final String propertyFilePath = "configuration/Configuration.properties";
 
     public ConfigFileReader() {
-        BufferedReader reader = null;
-        try {
-            reader = new BufferedReader(new FileReader(propertyFilePath));
+        String propertyFilePath = "configuration/Configuration.properties";
+        try (BufferedReader reader = new BufferedReader(new FileReader(propertyFilePath))) {
             properties = new Properties();
             try {
                 properties.load(reader);
             } catch (IOException e) {
                 e.printStackTrace();
             }
-        } catch (FileNotFoundException e) {
+        } catch (IOException e) {
             throw new RuntimeException("Properties file not found at path : " + propertyFilePath);
-        } finally {
-            try {
-                if (reader != null) {
-                    reader.close();
-                }
-            } catch (IOException ignore) {
-            }
         }
     }
 
@@ -64,25 +54,28 @@ public class ConfigFileReader {
 
     public Boolean getBrowserWindowSize() {
         String windowSize = properties.getProperty("windowMaximize");
-        if(windowSize != null) return Boolean.valueOf(windowSize);
+        if (windowSize != null) return Boolean.valueOf(windowSize);
         return true;
     }
 
-    public String getTestDataResourcePath(){
+    public String getTestDataResourcePath() {
         String testDataResourcePath = properties.getProperty("testDataResourcePath");
-        if(testDataResourcePath!= null) return testDataResourcePath;
-        else throw new RuntimeException("Test Data Resource Path not specified in the Configuration.properties file for the Key:testDataResourcePath");
+        if (testDataResourcePath != null) return testDataResourcePath;
+        else
+            throw new RuntimeException("Test Data Resource Path not specified in the Configuration.properties file for the Key:testDataResourcePath");
     }
 
-    public String getHomePageTitle(){
+    public String getHomePageTitle() {
         String testDataResourcePath = properties.getProperty("homepageTitle");
-        if(testDataResourcePath!= null) return testDataResourcePath;
-        else throw new RuntimeException("HomePage Title not specified in the Configuration.properties file for the Key:homepageTitle");
+        if (testDataResourcePath != null) return testDataResourcePath;
+        else
+            throw new RuntimeException("HomePage Title not specified in the Configuration.properties file for the Key:homepageTitle");
     }
 
-    public String getSignUpPageUrl(){
+    public String getSignUpPageUrl() {
         String testDataResourcePath = properties.getProperty("signUpUrl");
-        if(testDataResourcePath!= null) return testDataResourcePath;
-        else throw new RuntimeException("SignUpPage Url not specified in the Configuration.properties file for the Key:signUpUrl");
+        if (testDataResourcePath != null) return testDataResourcePath;
+        else
+            throw new RuntimeException("SignUpPage Url not specified in the Configuration.properties file for the Key:signUpUrl");
     }
 }

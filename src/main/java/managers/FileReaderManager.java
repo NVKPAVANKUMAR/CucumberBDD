@@ -12,7 +12,7 @@ public class FileReaderManager {
     private FileReaderManager() {
     }
 
-    public static FileReaderManager getInstance( ) {
+    public static FileReaderManager getInstance() {
         return fileReaderManager;
     }
 
@@ -20,7 +20,7 @@ public class FileReaderManager {
         return (configFileReader == null) ? new ConfigFileReader() : configFileReader;
     }
 
-    public JsonDataReader getJsonReader(){
+    public JsonDataReader getJsonReader() {
         return (jsonDataReader == null) ? new JsonDataReader() : jsonDataReader;
     }
 }

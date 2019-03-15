@@ -59,7 +59,7 @@ formatter.examples({
     },
     {
       "cells": [
-        "Virender"
+        "Lakshay"
       ],
       "line": 12,
       "id": "the-purpose-of-this-feature-is-to-test-end-2-end-integration.;customer-place-an-order-by-purchasing-an-item-from-search;;2"
@@ -97,7 +97,7 @@ formatter.step({
 });
 formatter.step({
   "line": 8,
-  "name": "enter \"Virender\" personal details on checkout page",
+  "name": "enter \"Lakshay\" personal details on checkout page",
   "matchedColumns": [
     0
   ],
@@ -112,48 +112,48 @@ formatter.match({
   "location": "SignUpPageSteps.user_is_on_Loginup_Page()"
 });
 formatter.result({
-  "duration": 17693110306,
+  "duration": 18393270847,
   "status": "passed"
 });
 formatter.match({
   "location": "SignUpPageSteps.user_assert_title_of_login_page_is_FreeCRM()"
 });
 formatter.result({
-  "duration": 8403620,
+  "duration": 7203265,
   "status": "passed"
 });
 formatter.match({
   "location": "SignUpPageSteps.user_clicks_on_signUp_link()"
 });
 formatter.result({
-  "duration": 21390797889,
+  "duration": 14225384483,
   "status": "passed"
 });
 formatter.match({
   "location": "SignUpPageSteps.browser_navigated_to_signUp_Page()"
 });
 formatter.result({
-  "duration": 5275302,
+  "duration": 4441312,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Virender",
+      "val": "Lakshay",
       "offset": 7
     }
   ],
   "location": "SignUpPageSteps.enter_personal_details_on_checkout_page(String)"
 });
 formatter.result({
-  "duration": 44018879699,
+  "duration": 19077926334,
   "status": "passed"
 });
 formatter.match({
   "location": "SignUpPageSteps.quit_the_browser_instance()"
 });
 formatter.result({
-  "duration": 1003866165,
+  "duration": 1390647702,
   "status": "passed"
 });
 });
