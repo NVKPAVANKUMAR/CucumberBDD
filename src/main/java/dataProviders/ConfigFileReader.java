@@ -78,4 +78,6 @@ public class ConfigFileReader {
         else
             throw new RuntimeException("SignUpPage Url not specified in the Configuration.properties file for the Key:signUpUrl");
     }
+
+
 }

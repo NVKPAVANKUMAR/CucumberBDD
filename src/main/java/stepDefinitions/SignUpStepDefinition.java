@@ -65,6 +65,5 @@ public class SignUpStepDefinition {
     @Then("^close the browser instance$")
     public void close_the_browser_instance() {
         driver.quit();
-        // reports.flush();
     }
 }

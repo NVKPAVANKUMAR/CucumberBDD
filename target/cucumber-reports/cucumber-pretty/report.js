@@ -112,28 +112,28 @@ formatter.match({
   "location": "SignUpPageSteps.user_is_on_Loginup_Page()"
 });
 formatter.result({
-  "duration": 18393270847,
+  "duration": 41600741034,
   "status": "passed"
 });
 formatter.match({
   "location": "SignUpPageSteps.user_assert_title_of_login_page_is_FreeCRM()"
 });
 formatter.result({
-  "duration": 7203265,
+  "duration": 9590320,
   "status": "passed"
 });
 formatter.match({
   "location": "SignUpPageSteps.user_clicks_on_signUp_link()"
 });
 formatter.result({
-  "duration": 14225384483,
+  "duration": 14234990733,
   "status": "passed"
 });
 formatter.match({
   "location": "SignUpPageSteps.browser_navigated_to_signUp_Page()"
 });
 formatter.result({
-  "duration": 4441312,
+  "duration": 6489879,
   "status": "passed"
 });
 formatter.match({
@@ -146,14 +146,14 @@ formatter.match({
   "location": "SignUpPageSteps.enter_personal_details_on_checkout_page(String)"
 });
 formatter.result({
-  "duration": 19077926334,
+  "duration": 3045888815,
   "status": "passed"
 });
 formatter.match({
   "location": "SignUpPageSteps.quit_the_browser_instance()"
 });
 formatter.result({
-  "duration": 1390647702,
+  "duration": 1281168542,
   "status": "passed"
 });
 });

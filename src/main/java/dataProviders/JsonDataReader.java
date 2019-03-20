@@ -11,6 +11,7 @@ import java.util.List;
 
 public class JsonDataReader {
     private List<Customer> customerList;
+    private ConfigFileReader configFileReader = new ConfigFileReader();
 
     public JsonDataReader() {
         customerList = getCustomerData();
@@ -18,7 +19,7 @@ public class JsonDataReader {
 
     private List<Customer> getCustomerData() {
         Gson gson = new Gson();
-        String customerFilePath = "C:\\Users\\pavan.nemalikanti\\IdeaProjects\\Cucumber-TestNG\\src\\main\\java\\testDataResource\\customer.json";
+        String customerFilePath = configFileReader.getTestDataResourcePath();
         try (BufferedReader bufferedReader = new BufferedReader(new FileReader(customerFilePath))) {
             Customer[] customers = gson.fromJson(bufferedReader, Customer[].class);
             return Arrays.asList(customers);
